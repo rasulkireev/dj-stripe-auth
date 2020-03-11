@@ -10,6 +10,7 @@ django = "*"
 django-allauth = "*"
 dj-stripe = "*"
 django-environ = "*"
+stripe = "*"
 
 [requires]
 python_version = "3.7"

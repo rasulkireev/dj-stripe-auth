@@ -1,12 +1,16 @@
 <html>
     <head>
-
+        {% block js %}
+        {% endblock js %}
     </head>
 
     <body>
         
     {% block content %}
     {% endblock content %}
+
+    {% block js-script %}
+    {% endblock js-script %}
 
     </body>
 </html>
